@@ -1,0 +1,22 @@
+# ── UI & ASGI stack ───────────────────────────────────────────────
+gradio>=4.33.0           # un-pin so we get the client fix
+pydantic>=2.6,<3
+
+# ── Google GenAI ──────────────────────────────────────────────────
+google-genai==1.11.0     # or whatever 1.x you need
+google-api-core>=2.15,<3
+
+# ── RAG & store ───────────────────────────────────────────────────
+chromadb==0.6.3
+faiss-cpu
+
+# ── Helpers ───────────────────────────────────────────────────────
+langchain
+typing-extensions>=4.5
+
+# ── PDF parsing ───────────────────────────────────────────────────
+PyMuPDF
+
+# ── Misc ─────────────────────────────────────────────────────────
+numpy
+huggingface_hub>=0.25.2,<0.26
