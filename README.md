@@ -3,6 +3,8 @@
 A Retrieval‑Augmented Generation chatbot that lets you query the 2025 Formula 1 technical regulations in seconds—no more manual PDF searches, just ask and get concise, citation‑backed answers.
 
 ---
+Live Demo : https://huggingface.co/spaces/AbhiDixit/F1-Reg-25
+---
 
 ## 🚀 Problem Statement & Solution
 
